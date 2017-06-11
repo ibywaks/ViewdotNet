@@ -65,7 +65,7 @@
   <ItemGroup>
     <ProjectReference Include="..\notif\notif.csproj">
       <Project>{B05EE82D-8BE9-4B33-AE47-52014D1A939A}</Project>
-      <Name>notif</Name>
+      <Name>ViewdoNet</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

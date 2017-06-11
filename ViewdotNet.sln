@@ -1,9 +1,9 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "notif", "notif\notif.csproj", "{B05EE82D-8BE9-4B33-AE47-52014D1A939A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewdoNet", "notif\ViewdoNet.csproj", "{B05EE82D-8BE9-4B33-AE47-52014D1A939A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "notif.Tests", "notif.Tests\notif.Tests.csproj", "{9770510A-40EA-4732-93AC-98277013A006}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewdotNet.Tests", "notif.Tests\ViewdotNet.Tests.csproj", "{9770510A-40EA-4732-93AC-98277013A006}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
