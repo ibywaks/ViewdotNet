@@ -21,7 +21,7 @@
 		    var channel = pusher.subscribe('general');
 			
 		    channel.bind('newVisit', function(data) {
-		      console.log(data);
+		      
 			  var visits = data.visits;
 			  var message = data.message;
 			  $('#noOfVisitors').text( visits + message);
