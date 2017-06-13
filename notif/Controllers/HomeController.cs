@@ -34,9 +34,9 @@ namespace notif.Controllers
 
 
 			var pusher = new Pusher(
-			  "344451",
-			  "913866e45b4b1e9daf1a",
-			  "6342ac2220f239d94d94");
+			  "PUSHER_APP_ID",
+			  "PUSHER_APP_KEY",
+			  "PUSHER_APP_SECRET");
 
 			var result =  pusher.TriggerAsync(
 			"general",
