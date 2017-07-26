@@ -32,11 +32,14 @@ namespace notif.Controllers
             var visit_text = (visitors == 1) ? " view" : " views";
             System.IO.File.WriteAllText("visitors.txt", visitors.ToString());
 
+			var options = new PusherOptions();
+			options.Cluster = "PUSHER_APP_CLUSTER";
+
 
 			var pusher = new Pusher(
-			  "PUSHER_APP_ID",
-			  "PUSHER_APP_KEY",
-			  "PUSHER_APP_SECRET");
+			"PUSHER_APP_ID",
+			"PUSHER_APP_KEY",
+			"PUSHER_APP_SECRET", options);
 
 			var result =  pusher.TriggerAsync(
 			"general",
